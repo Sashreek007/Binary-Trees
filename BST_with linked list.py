@@ -86,7 +86,7 @@ def deleteNode(rootNode, nodeValue):
 
 def delete(rootnode):
     rootnode.data=None
-    rootnode.leftChild = None
+    rootnode.leftChild=None
     rootnode.rightChild=None
 
 newBST = BSTNode(None)
