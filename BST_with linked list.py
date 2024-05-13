@@ -80,7 +80,7 @@ def deleteNode(rootNode, nodeValue):
             return temp
         
         temp = minValueNode(rootNode.rightChild)
-        rootNode.data = temp.data 
+        rootNode.data = temp.data
         rootNode.rightChild = deleteNode(rootNode.rightChild, temp.data)
     return rootNode
 
@@ -102,4 +102,3 @@ insert(newBST,40)
 levelOrderTraversal(newBST)
 deleteNode(newBST,30)
 levelOrderTraversal(newBST)
-delete(newBST)
