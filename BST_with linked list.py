@@ -102,3 +102,4 @@ insert(newBST,40)
 levelOrderTraversal(newBST)
 deleteNode(newBST,30)
 levelOrderTraversal(newBST)
+ 
